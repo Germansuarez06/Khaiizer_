@@ -1,0 +1,51 @@
+/* fuente principal */
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+/* fuente segundaria */
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Inconsolata:wght@200..900&display=swap');
+
+/* fuente terciaria */
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Inconsolata:wght@200..900&family=Mozilla+Headline:wght@200..700&display=swap');
+
+:root {
+
+    --fuente_principal: "Gruppo";
+    --fuente_segundaria: "Inconsolata";
+    --fuente_terciaria: "Mozilla Headline";
+
+    --color_principal: #f0f0f0;
+    --color_segundario: navy;
+    --color_terciario: purple;
+}
+.body {
+    background-color: var(--color_principal);
+}
+.body h1 {
+    color: navy;
+    font-family:'Courier New', Courier, monospace;
+}
+.body p {
+    font-family: var(--fuente_segundaria);
+    font-size: 18px;
+}
+
+.destacado p {
+    background-color: yellow;
+    color: black;
+}
+
+.resumen p {
+    background-color: purple;
+    color: beige;
+}
+
+.caja {
+  width: 400px;
+  background-color: #eaf2f8;
+  border: 2px solid #3498db;
+  padding: 20px;
+  margin: 30px;
+}
