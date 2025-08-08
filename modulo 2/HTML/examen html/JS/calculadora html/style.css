@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url('gengar.jpg');
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.calculadora {
+  background: rgba(0, 0, 0, 0.8); 
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(128, 0, 128, 0.7);
+  
+}
+
+#pantalla {
+  width: 100%;
+  max-width: 250px;
+  height: 50px;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: right;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #222;
+  color: #fff;
+}
+
+
+.botones {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 10px;
+}
+
+button {
+  height: 50px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #5f00ba, #370073);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 0 10px rgba(128, 0, 128, 0.5);
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
